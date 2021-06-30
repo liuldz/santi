@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网页设计</title>
+<style>
+.title{
+   font-size: 60px;
+    font-family: 楷体;
+    text-align: center;
+    letter-spacing: 0.3em;
+    color: #3f4d3a;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    padding-top: 50px;
+	}
+	.menu li:hover{
+            transform: scale(1.1,1.1);
+            transition: 2s;
+        }
+	.header{
+    position: absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+	
+.menu li{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+	.menu li p{
+    font-family: 楷体;
+    font-size: 35px;
+    width: 50px;
+	color:chocolate
+  
+    }
+	body{
+		font-family: "楷体";
+    font-size: 12px;
+    color: #999;
+	}
+	a{text-decoration: none}
+
+	</style>
+</head>
+<body>
+<div class="title">三体</div>
+<div class="header">
+<ul class="menu">
+<li>
+<a href="https:baidu.com">
+<p>作者介绍</p>
+</a>
+</li>	
+<li>
+<a href="https://sunxianghe123.github.io/duanxueqi/index.html">
+<p>作品介绍</p>
+</a>
+</li>	
+<li>
+<a href="https://sunxianghe123.github.io/duanxueqi/index.html">
+<p>小测试</p>
+</a>
+</li>	
+<li>
+<a href="https://sunxianghe123.github.io/duanxueqi/index.html">
+<p>句子赏析</p>
+</a>
+</li>		
+</ul>
+</body>
+</html>
